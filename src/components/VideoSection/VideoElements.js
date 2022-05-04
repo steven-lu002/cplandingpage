@@ -6,7 +6,7 @@ export const VideoContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background: #f9f9f9;
 `
 
 export const VideoH1 = styled.h1`
