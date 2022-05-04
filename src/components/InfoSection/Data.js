@@ -41,7 +41,7 @@ export const homeObjThree = {
     lightTextDesc: false,
     topLine: 'Next Steps',
     headline: 'What\'s Next?',
-    description: 'Details Change Text',
+    description: 'May continue development; project status is undetermined',
     description2: '',
     buttonLabel: 'Try Here',
     imgStart: false,
