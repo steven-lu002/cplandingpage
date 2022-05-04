@@ -26,38 +26,11 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
-                            <FooterLink to='/home'>Test</FooterLink>
+                            <FooterLinkTitle>LinkedIn</FooterLinkTitle>
+                            <FooterLink target="_blank" href="https://www.linkedin.com/in/jeremiah-cheng-5b7143121/">Jeremiah Cheng</FooterLink>
+                            <FooterLink target="_blank" href="https://www.linkedin.com/in/iamtyfy/">Tyler Su</FooterLink>
+                            <FooterLink target="_blank" href="https://www.linkedin.com/in/stelu1/">Steven Lu</FooterLink>
+                            <FooterLink target="_blank" href="https://www.linkedin.com/in/lekev206/">Kevin Le</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

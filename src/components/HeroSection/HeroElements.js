@@ -98,3 +98,15 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px; 
 `
+
+export const HeroLink = styled.a`
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+
+    &:hover{
+        color: #01bf71
+        transition: 0.3s ease-out
+    }
+`

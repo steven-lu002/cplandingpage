@@ -7,6 +7,7 @@ import Features from '../components/Features'
 import Team from '../components/Team'
 import Footer from '../components/Footer'
 import { homeObjOne, homeObjTwo, homeObjThree} from '../components/InfoSection/Data'
+import Video from '../components/VideoSection'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -25,6 +26,7 @@ const Home = () => {
             <Features />
             <InfoSection {...homeObjThree}/>
             <Team />
+            <Video />
             <Footer />
         </>
     )

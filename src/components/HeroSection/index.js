@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Video from '../../videos/video.mp4'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
-import { Button } from '../ButtonElement'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, HeroLink } from './HeroElements'
+import { Button } from '../Buttons'
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false)
@@ -23,9 +23,11 @@ const HeroSection = () => {
                     Never miss a beat, watch your favorite streamer and connect with the community.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
-                        Join the Party {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
+                    <HeroLink target="_blank" href="https://twipsbits.me/">
+                        <Button onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+                            Join the Party {hover ? <ArrowForward /> : <ArrowRight />}
+                        </Button>
+                    </HeroLink>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

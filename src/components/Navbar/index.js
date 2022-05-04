@@ -84,6 +84,16 @@ const Navbar = ({ toggle }) => {
                                 >
                                     Team
                                 </NavLinks>
+                                <NavLinks
+                                    to="video"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact='true'
+                                    offset={-80}
+                                >
+                                    Video
+                                </NavLinks>
                             </NavItem>
                         </NavMenu>
                     </NavbarContainer>
