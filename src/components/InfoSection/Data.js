@@ -28,7 +28,7 @@ export const homeObjTwo = {
     buttonLabel: 'Get Started',
     imgStart: true,
     img: require('../../images/svg-2.svg').default,
-    alt: 'image alt text',
+    alt: 'Watching Clips',
     dark: false,
     primary: false,
     darkText: true
@@ -43,10 +43,10 @@ export const homeObjThree = {
     headline: 'What\'s Next?',
     description: 'Details Change Text',
     description2: '',
-    buttonLabel: 'Button Text',
+    buttonLabel: 'Try Here',
     imgStart: false,
     img: require('../../images/svg-3.svg').default,
-    alt: 'image alt text',
+    alt: 'What\'s Next',
     dark: false,
     primary: false,
     darkText: true
