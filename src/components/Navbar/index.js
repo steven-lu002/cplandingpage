@@ -65,6 +65,16 @@ const Navbar = ({ toggle }) => {
                                     Features
                                 </NavLinks>
                                 <NavLinks
+                                    to="next"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact='true'
+                                    offset={-80}
+                                >
+                                    Next Steps
+                                </NavLinks>
+                                <NavLinks
                                     to="team"
                                     smooth={true}
                                     duration={500}
