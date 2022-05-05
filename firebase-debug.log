@@ -1,0 +1,46 @@
+[debug] [2022-05-05T19:31:31.840Z] ----------------------------------------------------------------------
+[debug] [2022-05-05T19:31:31.843Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-05T19:31:31.844Z] CLI Version:   7.15.1
+[debug] [2022-05-05T19:31:31.844Z] Platform:      win32
+[debug] [2022-05-05T19:31:31.844Z] Node Version:  v17.8.0
+[debug] [2022-05-05T19:31:31.846Z] Time:          Thu May 05 2022 12:31:31 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-05-05T19:31:31.846Z] ----------------------------------------------------------------------
+[debug] [2022-05-05T19:31:31.846Z] 
+[debug] [2022-05-05T19:31:31.862Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-05T19:31:31.863Z] > authorizing via signed-in user
+[debug] [2022-05-05T19:31:31.863Z] [iam] checking project twipslanding for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-05T19:31:31.867Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-05T19:31:31.868Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-05T19:31:32.350Z] <<< HTTP RESPONSE 400
+[debug] [2022-05-05T19:31:32.355Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/twipslanding:testIamPermissions  
+
+[debug] [2022-05-05T19:31:32.497Z] <<< HTTP RESPONSE 401
+[debug] [2022-05-05T19:31:32.498Z] <<< HTTP RESPONSE BODY
+[debug] [2022-05-05T19:31:32.501Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2022-05-05T19:31:32.503Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-05T19:31:32.503Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-05T19:31:32.564Z] <<< HTTP RESPONSE 400
+[debug] [2022-05-05T19:31:32.564Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/twipslanding  
+ 
+[debug] [2022-05-05T19:31:32.735Z] <<< HTTP RESPONSE 401
+[debug] [2022-05-05T19:31:32.735Z] <<< HTTP RESPONSE BODY
+[debug] [2022-05-05T19:31:32.736Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2022-05-05T19:31:32.919Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at module.exports (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:527:28)
+    at Request.emit (node:domain:475:12)
+    at Request.<anonymous> (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (node:events:527:28)
+    at Request.emit (node:domain:475:12)
+    at IncomingMessage.<anonymous> (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (node:events:641:28)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to get Firebase project twipslanding. Please make sure the project exists and your account has permission to access it.
