@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const Button = styled.a`
     border-radius: 50px;
-    background: ${({primary}) => (primary ? '#01BF71' : '#010606')};
+    background: ${({primary}) => (primary ? '#7E52A0' : '#BFABFF')};
     white-space: nowrap;
     padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
-    color: ${({dark}) => (dark ? '#010606' : '#fff')};
+    color: ${({dark}) => (dark ? '#fff' : '#fff')};
     font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
     outline: none;
     border: none;
@@ -17,6 +17,6 @@ export const Button = styled.a`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? '#fff' : '#01BF71')};
+        background: ${({primary}) => (primary ? '#BFABFF' : '#01BF71')};
     }
 `

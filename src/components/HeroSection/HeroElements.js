@@ -106,7 +106,7 @@ export const HeroLink = styled.a`
     font-size: 14px;
 
     &:hover{
-        color: #01bf71
+        color: #7E52A0
         transition: 0.3s ease-out
     }
 `

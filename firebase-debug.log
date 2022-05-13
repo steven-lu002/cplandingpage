@@ -44,3 +44,95 @@
     at processTicksAndRejections (node:internal/process/task_queues:83:21)
 [error] 
 [error] Error: Failed to get Firebase project twipslanding. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-05-05T19:33:20.753Z] ----------------------------------------------------------------------
+[debug] [2022-05-05T19:33:20.757Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-05T19:33:20.757Z] CLI Version:   7.15.1
+[debug] [2022-05-05T19:33:20.757Z] Platform:      win32
+[debug] [2022-05-05T19:33:20.758Z] Node Version:  v17.8.0
+[debug] [2022-05-05T19:33:20.760Z] Time:          Thu May 05 2022 12:33:20 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-05-05T19:33:20.760Z] ----------------------------------------------------------------------
+[debug] [2022-05-05T19:33:20.760Z] 
+[debug] [2022-05-05T19:33:20.778Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-05T19:33:20.779Z] > authorizing via signed-in user
+[debug] [2022-05-05T19:33:20.779Z] [iam] checking project twipslanding for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-05T19:33:20.783Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-05T19:33:20.784Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-05T19:33:21.006Z] <<< HTTP RESPONSE 400
+[debug] [2022-05-05T19:33:21.010Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/twipslanding:testIamPermissions  
+
+[debug] [2022-05-05T19:33:21.079Z] <<< HTTP RESPONSE 401
+[debug] [2022-05-05T19:33:21.080Z] <<< HTTP RESPONSE BODY
+[debug] [2022-05-05T19:33:21.082Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2022-05-05T19:33:21.083Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-05T19:33:21.083Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-05T19:33:21.128Z] <<< HTTP RESPONSE 400
+[debug] [2022-05-05T19:33:21.129Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/twipslanding  
+ 
+[debug] [2022-05-05T19:33:21.243Z] <<< HTTP RESPONSE 401
+[debug] [2022-05-05T19:33:21.243Z] <<< HTTP RESPONSE BODY
+[debug] [2022-05-05T19:33:21.244Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2022-05-05T19:33:21.316Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at module.exports (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:527:28)
+    at Request.emit (node:domain:475:12)
+    at Request.<anonymous> (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (node:events:527:28)
+    at Request.emit (node:domain:475:12)
+    at IncomingMessage.<anonymous> (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (node:events:641:28)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to get Firebase project twipslanding. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-05-13T21:20:30.967Z] ----------------------------------------------------------------------
+[debug] [2022-05-13T21:20:30.970Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-13T21:20:30.970Z] CLI Version:   7.15.1
+[debug] [2022-05-13T21:20:30.970Z] Platform:      win32
+[debug] [2022-05-13T21:20:30.971Z] Node Version:  v17.8.0
+[debug] [2022-05-13T21:20:30.984Z] Time:          Fri May 13 2022 14:20:30 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-05-13T21:20:30.984Z] ----------------------------------------------------------------------
+[debug] [2022-05-13T21:20:30.985Z] 
+[debug] [2022-05-13T21:20:31.011Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-13T21:20:31.012Z] > authorizing via signed-in user
+[debug] [2022-05-13T21:20:31.012Z] [iam] checking project twipslanding for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-13T21:20:31.016Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-13T21:20:31.017Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-13T21:20:31.267Z] <<< HTTP RESPONSE 400
+[debug] [2022-05-13T21:20:31.270Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/twipslanding:testIamPermissions  
+
+[debug] [2022-05-13T21:20:31.391Z] <<< HTTP RESPONSE 401
+[debug] [2022-05-13T21:20:31.391Z] <<< HTTP RESPONSE BODY
+[debug] [2022-05-13T21:20:31.395Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2022-05-13T21:20:31.397Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-13T21:20:31.398Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-13T21:20:31.496Z] <<< HTTP RESPONSE 400
+[debug] [2022-05-13T21:20:31.497Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/twipslanding  
+ 
+[debug] [2022-05-13T21:20:31.584Z] <<< HTTP RESPONSE 401
+[debug] [2022-05-13T21:20:31.584Z] <<< HTTP RESPONSE BODY
+[debug] [2022-05-13T21:20:31.586Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2022-05-13T21:20:31.684Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at module.exports (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:527:28)
+    at Request.emit (node:domain:475:12)
+    at Request.<anonymous> (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (node:events:527:28)
+    at Request.emit (node:domain:475:12)
+    at IncomingMessage.<anonymous> (C:\Users\luste\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (node:events:641:28)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to get Firebase project twipslanding. Please make sure the project exists and your account has permission to access it.
